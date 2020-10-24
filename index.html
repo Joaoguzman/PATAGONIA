@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>PATAGRAM</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: snow;
+        }
+        
+        .TS {
+            width: 100%;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 12px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        img {
+            width: 90%;
+            alt: " ";
+            display: block;
+            margin: auto;
+        }
+        /* Para versión móvil (Mobile First): */
+        
+        [class*="col-"] {
+            width: 100%;
+            padding: 3px;
+            border: 1px solid rosybrown;
+        }
+        /* Para versión escritorio o laptop: */
+        
+        @media only screen and (min-width: 768px) {
+            .col-4 {
+                width: 33.33%;
+                height: auto;
+            }
+            .col-12 {
+                width: 100%;
+            }
+            [class*="col-"] {
+                float: left;
+            }
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            img {
+                height: 270px;
+            }
+            .zoom {
+                opacity: 0.8;
+                transition: all 0.3s ease;
+            }
+            .zoom:hover {
+                opacity: 1;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="TS">
+        <h1>Patagonia Visual</h1>
+        <h3>Una galería de fotografías de la patagonia argentina y chilena</h3>
+        <p>Patagonia Visual es una página web diseñada en el marco del curso de desarrollo de aplicaciones en python dirigido por Awakelab durante el año 2020.</p>
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+            <div class="row">
+                <div class="col-12">
+                    <img class="zoom" src="img/T1.jpeg"></div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h2>#Patagonia</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Naturaleza</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Paisaje</h2>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="row">
+                <div class="col-12">
+                    <img class="zoom" src="img/T2.jpeg"></div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h2>#Patagonia</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Naturaleza</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Paisaje</h2>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="row">
+                <div class="col-12">
+                    <img class="zoom" src="img/T3.jpg"></div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h2>#Patagonia</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Naturaleza</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Paisaje</h2>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="row">
+                <div class="col-12">
+                    <img class="zoom" src="img/T4.jpg"></div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h2>#Patagonia</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Naturaleza</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Paisaje</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Torres del Paine</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="row">
+                <div class="col-12">
+                    <img class="zoom" src="img/T5.jpg"></div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h2>#Patagonia</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Naturaleza</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Paisaje</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Torres del Paine</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="row">
+                <div class="col-12">
+                    <img class="zoom" src="img/T6.jpeg"></div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h2>#Patagonia</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Naturaleza</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Paisaje</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Torres del Paine</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="row">
+                <div class="col-12">
+                    <img class="zoom" src="img/T6.jpg"></div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h2>#Patagonia</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Naturaleza</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Paisaje</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Torres del Paine</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="row">
+                <div class="col-12">
+                    <img class="zoom" src="img/T7.jpg"></div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h2>#Patagonia</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Naturaleza</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Paisaje</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Torres del Paine</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="row">
+                <div class="col-12">
+                    <img class="zoom" src="img/T8.jpg"></div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h2>#Patagonia</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Naturaleza</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Paisaje</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Torres del Paine</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="row">
+                <div class="col-12">
+                    <img class="zoom" src="img/T9.jpeg"></div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h2>#Patagonia</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Naturaleza</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Paisaje</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Wild</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="row">
+                <div class="col-12">
+                    <img class="zoom" src="img/T2.jpeg"></div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h2>#Patagonia</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Naturaleza</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Paisaje</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Chile</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="row">
+                <div class="col-12">
+                    <img class="zoom" src="img/T4.jpg"></div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h2>#Patagonia</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Naturaleza</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Paisaje</h2>
+                </div>
+                <div class="col-4">
+                    <h2>Navarino
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="row">
+                <div class="col-12">
+                    <img class="zoom" src="img/T6.jpg"></div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h2>#Patagonia</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Naturaleza</h2>
+                </div>
+                <div class="col-4">
+                    <h2>#Paisaje</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
